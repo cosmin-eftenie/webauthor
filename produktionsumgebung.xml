@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE section [
+<!ENTITY stdd "SDG-TDD">
+<!ENTITY nedm "D-EDM">
+<!ENTITY kta "Kompetenzteam Architektur">
+<!ENTITY kte "Kompetenzteam EU / Interoperabilität">
+]>
+<section xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.1" xml:lang="de"
+    audience="public">
+    <info>
+        <title>Aufgabenstellung der Produktionsumgebung</title>
+    </info>
+    <simpara>Wir gehen davon aus, dass es zukünftig zwei Linien von TDD geben wird:</simpara>
+    <orderedlist numeration="loweralpha">
+        <listitem>
+            <para>Weiterhin die von der EU-Kommission bzw. der <phrase xml:lang="en"
+                    >Gateway Co-ordination Group </phrase>herausgegebenen SDG-TDD als faktisch normative Spezifikation der Anschlussbedingungen nationaler IT-Systeme an das SDG-OOTS.</para>
+            <para>Wir hoffen, dass angesichts der steigenden Relevanz eine andere Qualität des Dokuments erreicht wird. Sowohl hinsichtlich der Lesbarkeit, als auch hinsichtlich des Releasemanagement, können dazu aber keine Aussage treffen. </para>
+        </listitem>
+        <listitem>
+            <para>Zukünftig auch nationale TDD (DE-TDD) zur technischen Beschreibung des in Deutschland zu errichtenden, nationalen Once Only technical System (NOOTS).</para>
+            <para>Sicher ist bisher nur die Überführung des <quote>Chapter 4: Evidence Exchange</quote> in die <quote>Spezifikation des generischen Standards für den Abruf von Nachweisen im NOOTS</quote> durch die KoSIT. Hierfür ist ein relativ kleines Autorenteam zuständig, von denen viele, aber nicht alle mit DocBook und Oxygen vertraut sind. Diese Aufgabe soll unverzüglich beginnen.</para>
+            <para>Für diese Aufgabe wollen wir mit den SDG-TDD (April 22) aus Ausgangsbasis beginnen, um schrittweise die für das NOOTS erforderlichen Ergänzungen und Änderungen vorzunehmen, um so zu der Spezifikation für Deutschland zu kommen.</para>
+            <para>Die Wahrscheinlichkeit ist hoch, dass zu einem späteren Zeitpunkt auch die anderen Kapitel der SDG-TDD für das NOOTS überführt werden, so dass die &nedm; inhaltlich die gleichen Bereiche wie die SDG-TDD abdecken werden. Dann wird es verschiedene weitere Autoren geben, von denen nur wenige mit DocBook und Oxygen vertraut sind. Die Entscheidung ist aber noch nicht getroffen.</para>
+        </listitem>
+    </orderedlist>
+    <simpara>Die Aufgabe besteht in der initialen Einrichtung und dem Betrieb einer Produktionsumgebung für die nationalen DE-TDD inklusive einer Unterstützung der beteiligten Autoren unter folgenden Rahmenbedingungen:</simpara>
+    <orderedlist>
+        <listitem>
+            <para>Die kollaborative Erstellung der TDD durch eine Gruppe von Autoren, von denen zunächst nur manche, später viele die Arbeit mit DocBook und Oxygen nicht gewohnt sind, muss optimal unterstützt werden. Das bezieht sich auf</para>
+            <itemizedlist>
+                <listitem>
+                    <para>Die Zuweisung von Aufgaben und die Nachverfolgung von deren Bearbeitung;</para>
+                </listitem>
+                <listitem>
+                    <para>Eine produktive Arbeitsumgebung für Autoren: sie sollen sich auf Inhalte konzenttrieren und nicht durch Tücken der technischen Umgebung abgelenkt werden;</para>
+                </listitem>
+                <listitem>
+                    <para>Die Nachverfolgung von Dokumentenversionen (was wurde wann und von wem geändert) inkl. Vergleich und Wiederherstellung vorheriger Fassungen in GitLab.</para>
+                </listitem>
+            </itemizedlist>
+            <simpara>Wir benötigen eine Entscheidungshilfe zur Frage, ob Autoren direkt in Oxygen / DocBook arbeiten sollen. Oder ob es besser ist, wenn sie mit gewohnter Software (WIKI, Word) arbeiten, und wir das DocBook Dokument im Nachgang durch Export / Import Mechanismen erstellen.</simpara>
+        </listitem>
+        <listitem>
+            <para>Es wird regelmäßige Reviews von Zwischenständen geben müssen. Dann sind Personen beteiligt, die ausschließlich Microsoft Word (Überarbeitungsfunktion) gewohnt sind. Die regelmäßige Überführung von DocBook in Microsoft Word wird daher vermutlich eine wichtige Anforderung an die Produktionsumgebung sein<footnote>
+                    <simpara>Alternativ kann <link xlink:href="https://www.oxygenxml.com/oxygen_feedback.html"
+                            >Oxygen Feedback</link> für die Review Phase erprobt werden.</simpara>
+                </footnote>.</para>
+        </listitem>
+        <listitem>
+            <para>Die Zielgruppe des / der finalen Dokumente ist heterogen. Es handelt sich überwiegend um technik-affine Personen bei IT-Herstellern und -Entwicklern. Aber auch Zuständige in der öffentlichen Verwaltung, z. B. nationale SDG Koordinatoren.</para>
+            <para>Das finale Dokument muss mindestens in zwei Formaten bereitgestellt werden:</para>
+            <itemizedlist>
+                <listitem>
+                    <para>In hoher typografischer Qualität im Format PDF für den Ausdruck;</para>
+                </listitem>
+                <listitem>
+                    <para>im Format HTML 5 mit komfortablen Suchfunktionen</para>
+                </listitem>
+            </itemizedlist>
+        </listitem>
+    </orderedlist>
+    <bridgehead>Unterstützungsbedarf / Kompetenzen</bridgehead>
+    <itemizedlist>
+        <listitem>
+            <para>Kompetenz mit Kerntechologien: XSLT, XPath, DocBook, OfficeOpen XML, HTML5+CSS sowie Git zur Bereuung und Weiterentwicklung der Produktionsumgebung für die Dokumente zur Spezifikation des nationalen technischen Systems;</para>
+        </listitem>
+        <listitem>
+            <para>Kompetenz beim Einsatz und dem <phrase xml:lang="en">Customizing</phrase> der Produkte von <link
+                    xlink:href="https://www.oxygenxml.com/about_us.html"
+                    >Syncro Soft</link> für den Einsatz in der Produktionsumgebung, insbesondere die Produkte <emphasis>XML Editor</emphasis> und <emphasis>Web Author</emphasis> im Zusammenspiel mit Git;</para>
+        </listitem>
+        <listitem>
+            <para>Kompetenz bei der Betreuung von Autoren bei der Erstellung technischer Dokumentation mit den genannten Tools und Produkten;</para>
+        </listitem>
+        <listitem>
+            <para>Erfahrung mit Frameworks (wie z. B. <link xlink:href="http://transpect.github.io/"
+                >transpect</link>) oder geeigneter Software für die o. g. Aufgabenstellung der Konvertierung von und in in Office Formate;</para>
+        </listitem>
+        <listitem>
+            <para>Beratug hinsichtlich geeigneter Methoden und Produkte zur Unterstützung der Review-Phase von Zwischenergebnissen der Dokumente (z. B. Einsatz von <link
+                    xlink:href="https://www.oxygenxml.com/oxygen_feedback.html">Oxygen Feedback</link>).</para>
+        </listitem>
+    </itemizedlist>
+</section>
