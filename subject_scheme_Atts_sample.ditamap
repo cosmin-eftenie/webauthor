@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "/SysSchema/dita/dtd/subjectScheme/dtd/subjectScheme.dtd">
+<subjectScheme xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-US">
+    <!--Define the values for the audience attribute-->
+    <subjectdef keys="users">
+        <subjectdef keys="general"/>
+        <subjectdef keys="support"/>
+        <subjectdef keys="technician"/>
+    </subjectdef>
+    <!--Define the values for the platform attribute-->
+    <subjectdef keys="output">
+        <subjectdef keys="pdf"/>
+        <subjectdef keys="html"/>
+    </subjectdef>
+    <!-- Bind the attributes to the values -->
+    <enumerationdef>
+        <attributedef name="audience"/>
+        <subjectdef keyref="users"/>
+    </enumerationdef>
+    <enumerationdef>
+        <attributedef name="platform"/>
+        <subjectdef keyref="output"/>
+    </enumerationdef>
+</subjectScheme>
