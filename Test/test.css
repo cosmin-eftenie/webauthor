@@ -1,0 +1,17 @@
+test {
+    color: blue;
+}
+paragraph {
+	font-weight: bold;
+	font-style: italic;
+}
+
+lines[sometest='123'] { 
+content: oxy_urlChooser(   
+		edit, "@sometest",
+		fileFilter "jpg,png,gif,svg",
+        columns 25,
+        visible "true");
+	
+}
+
