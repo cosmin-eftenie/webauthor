@@ -1,13 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<project xmlns="https://www.dita-ot.org/project">
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
     <include href="../dometic-docs.xml"/>
-    <context id="tyUjZqIOPkJrGvV" name="test">
-        <input href="../flowers/flowers.ditamap"/>
-    </context>
-    <publication id="webhelp" transtype="webhelp-responsive"/>
-    <deliverable id="d-test-1714112771796" name="test">
-        <context idref="tyUjZqIOPkJrGvV"/>
-        <output href="webhelp-output"/>
-        <publication idref="webhelp"/>
-    </deliverable>
 </project>
+
