@@ -1,0 +1,140 @@
+<xliff version='1.2'
+  xmlns='urn:oasis:names:tc:xliff:document:1.2'>
+
+  <file original="file:/F:/l10N/src/zh-CN/SHORTRM.ditamap"
+    source-language="zh-CN"
+    target-language="fr"
+    datatype="plaintext">
+    <body>
+      <trans-unit id="title-d2e3">
+        <source>L034-HC32L16x/HC32L18x系列参考手册</source>
+        <target/>
+      </trans-unit>
+    </body>
+  </file>
+        <file original="file:/F:/l10N/src/zh-CN/Product_Description/RM/rm_product-description.dita"
+          source-language="zh-CN"
+          target-language="fr"
+          datatype="plaintext">
+          <body>
+            <trans-unit id="title-d3e2">
+              <source>产品简介</source>
+              <target/>
+            </trans-unit>
+            <trans-unit id="p-d3e5">
+              <source>是一款旨在延长便携式测量系统的电池使用寿命的超低功耗、宽电压工作范围的MCU。集成12-bit 1Msps高精度SARADC，1个12-bit DAC以及集成了比较器、运放、内置高性能PWM定时器、LCD显示、多路UART、SPI、I2C等丰富的通讯外设，内建AES、TRNG等信息安全模块，具有高整合度、高抗干扰、高可靠性和超低功耗的特点。本产品内核采用内核，配合成熟的Keil &amp; IAR调试开发软件，支持C语言、汇编语言和汇编指令。</source>
+              <target/>
+            </trans-unit>
+            <trans-unit id="p-d3e12">
+              <source>HC32F052主频达64MHz，Flash容量最大达128KB，具有丰富的数字和模拟外设，是一款宽电压工作范围的MCU。</source>
+              <target/>
+            </trans-unit>
+            <trans-unit id="p-d3e15">
+              <source>本产品集成USART（兼容LIN）、SPI、I2C、CAN等丰富的通讯外设，具有高抗干扰、高可靠性的特点，可广泛应用于通用MCU市场。</source>
+              <target/>
+            </trans-unit>
+            <trans-unit id="p-d3e18">
+              <source>本产品集成1个12位高精度SAR ADC、2个OPA、2个比较器，配合硬件除法开方单元和高性能电机专用PWM定时器，可实现复杂的高性能、高可靠性的电机控制方案。</source>
+              <target/>
+            </trans-unit>
+            <trans-unit id="p-d3e21">
+              <source>本产品内核采用内核，配合成熟的Keil &amp; IAR调试开发软件，支持C语言及汇编语言，汇编指令。</source>
+              <target/>
+            </trans-unit>
+            <trans-unit id="p-d3e28">
+              <source>是基于，最高工作频率240MHz的高性能MCU。内核集成了浮点运算单元（FPU）和DSP，实现单精度浮点算术运算，支持所有ARM单精度数据处理指令和数据类型，支持完整DSP指令集。内核集成了MPU单元，同时叠加DMAC专用MPU单元，保障系统运行的安全性。</source>
+              <target/>
+            </trans-unit>
+            <trans-unit id="p-d3e36">
+              <source>集成了高速片上存储器，包括最大2MB的Flash，最大512KB的SRAM，Flash和SRAM均支持ECC功能。集成了Flash访问加速单元，实现CPU在Flash上的单周期程序执行。轮询式总线矩阵支持多个总线主机同时访问存储器和外设，提高运行性能。总线主机包括CPU，DMA，USB专用DMA，ETHMAC专用DMA。除总线矩阵外，支持外设间数据传递，基本算术运算和事件相互触发，可以显著降低CPU的事务处理负荷。</source>
+              <target/>
+            </trans-unit>
+            <trans-unit id="p-d3e40">
+              <source>集成了丰富的外设功能。包括3个独立的12-bit 2.5Msps ADC，4个增益可调PGA，4个12位15Msps的DAC，4个高速电压比较器（CMP），8个多功能 PWM Timer（Timer6），支持16路互补PWM输出，3个电机PWM Timer（Timer4）支持18路互补PWM输出，12个16bit通用Timer（TimerA）支持6路3相正交编码输入及48路Duty独立可设PWM输出，22个串行通信接口（I2C/USART/SPI），1个QSPI接口，4路CAN，4个I2S支持音频PLL，2个SDIO，1个ETHMAC，内置USBFS PHY的USBFS Controller和USBHS Controller，1个外部扩张总线控制器，包括NFC控制器，SMC控制器和DMC控制器，1个数字视频接口DVP，1个数学运算单元（MAU）和4个滤波数学加速器（FMAC），1个对称加密算法单元（SKE），1个非对称加密算法单元（PKE），1个错误管理单元（ERMU）。</source>
+              <target/>
+            </trans-unit>
+            <trans-unit id="p-d3e44">
+              <source>支持宽电压范围（1.8-3.6V），宽温度范围（-40-105℃）和各种低功耗模式。支持低功耗模式的快速唤醒，STOP模式唤醒最快至2μs，Power Down模式唤醒最快至25μs。</source>
+              <target/>
+            </trans-unit>
+            <trans-unit id="section-d3e48">
+              <source>超低功耗MCU典型应用主要用于以下场景：家用电器传感器应用、物联网应用智能仪表、无线模块、温控器、货架标签智能交通、报警系统智能家居、医疗设备物联网家电主控电机控制智能家居医疗设备</source>
+              <target/>
+            </trans-unit>
+            <trans-unit id="section-d3e86">
+              <source>典型应用提供100pin、144pin、176pin的LQFP封装，100pin、176pin的VFBGA封装，208pin的TFBGA封装，用于高性能变频控制、数字电源，智能硬件、IoT连接模块等领域。</source>
+              <target/>
+            </trans-unit>
+            <trans-unit id="section-d3e95">
+              <source>关于本手册本手册主要介绍芯片的功能、操作事项和使用方法。关于芯片的规格，请参阅对应的《数据手册》。</source>
+              <target/>
+            </trans-unit>
+          </body>
+        </file>
+
+   
+        <file original="file:/F:/l10N/src/zh-CN/Storage_Architecture/RM/rm_common_storage_architecture_0001.dita"
+          source-language="zh-CN"
+          target-language="fr"
+          datatype="plaintext">
+          <body>
+            <trans-unit id="title-d4e2">
+              <source>存储与架构</source>
+              <target/>
+            </trans-unit>
+            <trans-unit id="shortdesc-d4e4">
+              <source/>
+              <target/>
+            </trans-unit>
+            <trans-unit id="p-d4e6">
+              <source/>
+              <target/>
+            </trans-unit>
+          </body>
+        </file>
+
+   
+        <file original="file:/F:/l10N/src/zh-CN/Work_Mode/RM/rm_common_work_mode_0001.dita"
+          source-language="zh-CN"
+          target-language="fr"
+          datatype="plaintext">
+          <body>
+            <trans-unit id="title-d5e2">
+              <source>工作模式</source>
+              <target/>
+            </trans-unit>
+          </body>
+        </file>
+
+   
+        <file original="file:/F:/l10N/src/zh-CN/rm_ip_sysctrl.ditamap"
+          source-language="zh-CN"
+          target-language="fr"
+          datatype="plaintext">
+          <body>
+            <trans-unit id="title-d6e2">
+              <source>系统控制器（SYSCTRL）</source>
+              <target/>
+            </trans-unit>
+          </body>
+        </file>
+              <file original="file:/F:/l10N/src/zh-CN/IP_SYSCTRL/RM/rm_ip_sysctrl_0001.dita"
+                source-language="zh-CN"
+                target-language="fr"
+                datatype="plaintext">
+                <body>
+                  <trans-unit id="title-d7e2">
+                    <source>系统控制器（SYSCTRL）</source>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="shortdesc-d7e4">
+                    <source/>
+                    <target/>
+                  </trans-unit>
+                  <trans-unit id="p-d7e6">
+                    <source/>
+                    <target/>
+                  </trans-unit>
+                </body>
+              </file>
+</xliff>

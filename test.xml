@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <test>Txt dsdsdddsd <paragraph> tesssttt AAAAAAA fsdffsd afdafadfsdf sdsdsdsds
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<test>Txt dsdsdddsd <paragraph> tesssttt AAAAAAA fsdffsd
+>>>>>>> main
                 sdsdtetrtrtegrge<paragraph>doar<paragraph>trrttrr DDDDDD INCA UN TEST</paragraph>
             <paragraph>rrrttt</paragraph><paragraph>dsadsasd sdsdsdsd</paragraph> teste,
                 teste,<paragraph>zzz</paragraph> teste<paragraph>zzzttt
             ddsd</paragraph></paragraph><paragraph>zZZz</paragraph>
     </paragraph>
     <lines sometest="123"/>
+<<<<<<< HEAD
 </test>
+=======
+</test>
+>>>>>>> main

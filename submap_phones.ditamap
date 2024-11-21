@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="map_1C03AB61C63B4FA6A95F36368EFD4772" title="Submap Phones" xml:lang="en-US">
+  <topicref format="dita" href="topics/begin.xml">
+    <topicref format="dita" href="topics/getting_started.xml"/>
+
+    <topicref format="dita" href="topics/insert_SIMcard.xml"/>
+
+    <topicref format="dita" href="topics/charge_battery.xml"/>
+  </topicref>
+
+  <topicref format="dita" href="topics/basics.xml">
+    <topicref format="dita" href="topics/overview_handset.xml"/>
+
+    <topicref format="dita" href="topics/make_and_receive_calls.xml">
+      <topicref format="dita" href="topics/make_calls.xml"/>
+
+      <topicref format="dita" href="topics/receive_call.xml"/>
+
+      <topicref format="dita" href="topics/reject_call.xml"/>
+    </topicref>
+
+    <topicref format="dita" href="topics/retrieve_voicemail.xml"/>
+
+    <topicref href="topics/taking_photos.xml">
+      <topicref format="dita" href="topics/take_photos.xml"/>
+
+      <topicref href="topics/take_front-facing_photo.xml"/>
+    </topicref>
+
+    <topicref format="dita" href="topics/listen _music.xml"/>
+
+    <topicref href="topics/exchange_data.xml"/>
+
+    <topicref format="dita" href="topics/reset_phone.xml"/>
+  </topicref>
+
+  <topicref format="dita" href="topics/troubleshooting.xml">
+    <topicref href="topics/screen_frozen.xml"/>
+    <topicref format="dita" href="topics/battery_drain.xml"/>
+  </topicref>
+
+  <topicref audience="technician" format="dita" href="topics/service_section.xml">
+    <topicref format="dita" href="topics/replace_battery.xml"/>
+
+    <topicref href="topics/insert_battery.xml"/>
+  </topicref>
+
+  <topicref format="dita" href="topics/specifications.xml">
+    <topicref keyref="productSpec"/>
+  </topicref>
+  <topicref href="video/QuickStart_MP4_Handset.xml" format="dita" platform="html"/>
+
+  <topichead navtitle="Glossary" toc="no">
+    <glossref format="dita" href="glossary/dual_band.xml" keys="quad_band" linking="normal" print="yes" search="yes" toc="no" type="glossentry"/>
+
+    <glossref format="dita" href="glossary/earphones.xml" keys="earphones" linking="normal" print="yes" search="no" toc="no" type="glossentry"/>
+
+    <topicref format="dita" href="glossary/nfc_antenna.xml" keys="nfc"/>
+  </topichead>
+
+  <mapref format="ditamap" href="subject_scheme_Atts_sample.ditamap"/>
+
+  <reltable toc="yes">
+    <relheader>
+      <relcolspec linking="sourceonly"/>
+
+      <relcolspec linking="targetonly"/>
+    </relheader>
+
+    <relrow>
+      <relcell collection-type="family">
+        <topicref format="dita" href="topics/getting_started.xml"/>
+      </relcell>
+
+      <relcell collection-type="family">
+        <topicref format="dita" href="topics/basics.xml"/>
+      </relcell>
+    </relrow>
+
+    <relrow>
+      <relcell>
+        <topicref format="dita" href="topics/troubleshooting.xml"/>
+      </relcell>
+
+      <relcell>
+        <topicref format="dita" href="topics/specifications.xml"/>
+      </relcell>
+    </relrow>
+
+    <relrow>
+      <relcell>
+        <topicref format="dita" href="topics/service_section.xml"/>
+      </relcell>
+
+      <relcell collection-type="family">
+        <topicref format="html" href="http://www.bluestream.com/" scope="external">
+          <topicmeta>
+            <navtitle>Another Resource</navtitle>
+          </topicmeta>
+        </topicref>
+      </relcell>
+    </relrow>
+
+    <relrow/>
+
+    <relrow/>
+  </reltable>
+</map>
