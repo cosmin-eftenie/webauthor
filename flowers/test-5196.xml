@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE root [
+  <!ENTITY xxe SYSTEM "jar:file:///C:/Users/cosmin_eftenie/Document.docx!/word/test-5196.xml.xml">
+]>
+<root>&xxe;</root> 
