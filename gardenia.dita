@@ -12,7 +12,8 @@
             Several species occur on
             <?oxy_insert_start author="Mary" timestamp="20190213T115708+0000"?>the island of
             <?oxy_insert_end?>Hawaii, where gardenias are known as
-            <i>na'u</i><?oxy_delete author="Mary" timestamp="20190213T115732+0000" content="or &lt;i&gt;nanu&lt;/i&gt;"?>.</p>
+            <i>na'u</i><?oxy_delete author="Mary" timestamp="20190213T115732+0000" content="or &lt;i&gt;nanu&lt;/i&gt;"?>.<?oxy_insert_start author="Cosmin Eftenie" timestamp="20250206T095530+0200"?>
+            sdads<?oxy_insert_end?></p>
         <p><image href="../../images/Gardeniaflower.jpg"/></p>
         <p>The genus was named by
             <?oxy_comment_start author="Tom" timestamp="20190213T115921+0000" comment="Someone should double-check these facts." id="hvs_k4x_tgb"?><?oxy_comment_start author="Mary" timestamp="20190213T120035+0000" comment="I will ask John to check this." parentID="hvs_k4x_tgb" mid="2"?><?oxy_comment_start author="John" timestamp="20190213T120047+0000" comment="I checked the facts and they are correct." parentID="hvs_k4x_tgb" mid="3"?>Carl
