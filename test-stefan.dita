@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA 2.x Topic//EN" "topic.dtd">
+<?xml-stylesheet type="text/css" href="file:/D:/Utile%20suport/Stefan%20Jung/test-stefan.css"?>
+<topic id="topic_exemplu_hazard" class="- topic/topic ">
+  <title>Exemplu Hazardstatement – toate tipurile</title>
+  <body class="- topic/body ">
+    
+    <!-- Danger -->
+    <hazardstatement id="hs_danger" type="danger"
+      class="- topic/note hazard-d/hazardstatement ">
+      <messagepanel class="- topic/div hazard-d/messagepanel ">
+        <typeofhazard class="+ topic/div hazard-d/typeofhazard "/>
+      </messagepanel>
+    </hazardstatement>
+    
+    <!-- Warning -->
+    <hazardstatement id="hs_warning" type="warning"
+      class="- topic/note hazard-d/hazardstatement ">
+      <messagepanel class="- topic/div hazard-d/messagepanel ">
+        <typeofhazard class="+ topic/div hazard-d/typeofhazard "/>
+      </messagepanel>
+    </hazardstatement>
+    
+    <!-- Caution -->
+    <hazardstatement id="hs_caution" type="caution"
+      class="- topic/note hazard-d/hazardstatement ">
+      <messagepanel class="- topic/div hazard-d/messagepanel ">
+        <typeofhazard class="+ topic/div hazard-d/typeofhazard "/>
+      </messagepanel>
+    </hazardstatement>
+    
+    <!-- Notice -->
+    <hazardstatement id="hs_notice" type="notice"
+      class="- topic/note hazard-d/hazardstatement ">
+      <messagepanel class="- topic/div hazard-d/messagepanel ">
+        <typeofhazard class="+ topic/div hazard-d/typeofhazard "/>
+      </messagepanel>
+    </hazardstatement>
+    
+    <!-- Note -->
+    <hazardstatement id="hs_note" type="note"
+      class="- topic/note hazard-d/hazardstatement ">
+      <messagepanel class="- topic/div hazard-d/messagepanel ">
+        <typeofhazard class="+ topic/div hazard-d/typeofhazard "/>
+      </messagepanel>
+    </hazardstatement>
+    
+  </body>
+</topic>
