@@ -2,6 +2,9 @@
 <project xmlns="https://www.dita-ot.org/project">
     <context id="tyUjZqIOPkJrGvV" name="test">
         <input href="../flowers/flowers.ditamap"/>
+        <profile>
+          <ditaval/>
+         </profile>
     </context>
     <publication id="webhelp" transtype="webhelp-responsive"/>
     <deliverable id="d-test-1714112771796" name="test">
