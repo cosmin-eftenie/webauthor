@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map xml:lang="en-US">
+    <title>XXX Library Migration Guide</title>
+    <topicref href="./introduction.dita" navtitle="Introduction"/>
+    <topicref href="./xxx-library-usage-and-limitations.dita" navtitle="How to Use the XXX Library"/>
+    <topicref href="./features-not-supported-in-the-xxx-library.dita" navtitle="Features Not Supported in the XXX Library"/>
+</map>

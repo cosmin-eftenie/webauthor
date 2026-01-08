@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic xml:lang="en-US" id="c-standard-library-v2-migration-guide_0">
+    <title>Introduction</title>
+    <shortdesc>Short description.</shortdesc>
+    <body>
+        <p>Placeholder text.</p>
+        <section>
+            <title>Reference Materials</title>
+            <p>Refer to the following document for details about the XXX features:</p>
+            <ul>
+                <li><ph outputclass="doctitlelink">&quot;XXX Libraries: Overview and Reference&quot;</ph></li>
+            </ul>
+            <p>For information about bugs, points to note, restrictions, and announcements regarding the XXX features, refer to the respective release notes below:</p>
+            <ul>
+                <li>&quot;Release Notes - XXX Library&quot;</li>
+            </ul>
+        </section>
+    </body>
+</topic>
