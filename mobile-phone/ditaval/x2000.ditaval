@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <val>
-    <prop action="exclude" att="product" val="X1000" />
+    <prop action="flag" att="product" val="X1000" color="red" />
     <prop action="exclude" att="audience" val="Technician" />
 </val>
