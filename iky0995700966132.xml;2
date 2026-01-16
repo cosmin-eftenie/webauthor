@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="iky0995700966132" xml:lang="en-US">
+<title>TEST</title>
+<taskbody>
+<prelreqs id="prelreqs_dcs_5bv_wsb">
+<reqconds id="reqconds_uzj_vbv_wsb">
+<reqcond><?oxy-placeholder content="Add the different conditions to run this maintenance task"?></reqcond>
+</reqconds>
+<reqpers id="reqpers_m4y_vbv_wsb">
+<personnel><?oxy-placeholder content="Add with how many persons you have to run this maintenance task"?></personnel>
+<perscat/>
+<perskill><?oxy-placeholder content="Add the necessary skills of the person who needs to run this maintenance task"?></perskill>
+</reqpers>
+<supequip id="supequip_umd_1cv_wsb">
+<supeqli id="supeqli_zkl_1cv_wsb">
+<supequi><?oxy-placeholder content="Add the equipment needed for this maintenance task"?></supequi>
+</supeqli>
+</supequip>
+<supplies id="supplies_ppl_jdl_jtb">
+<supplyli id="supplyli_ar4_ldl_jtb">
+<supply><?oxy-placeholder content="Add the spare parts items needed for this maintenance task"?></supply>
+</supplyli>
+</supplies>
+<safety id="safety_twq_ybv_wsb">
+<safecond><?oxy-placeholder content="Add the safety conditions you need to take into account for this maintenance task"?></safecond>
+</safety>
+</prelreqs>
+<context>
+<p><?oxy-placeholder content="Add context when you have to run this procedure."?></p>
+</context>
+<steps>
+<step>
+<cmd/>
+</step>
+</steps>
+</taskbody>
+</task>
