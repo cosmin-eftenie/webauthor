@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="iky0995700966132" xml:lang="en-US">
+<title ixia_locid="1">TEST</title>
+<taskbody>
+<prelreqs id="prelreqs_dcs_5bv_wsb" ixia_locid="2">
+<reqconds id="reqconds_uzj_vbv_wsb">
+<reqcond ixia_locid="3">oil temperature</reqcond>
+</reqconds>
+<reqpers id="reqpers_m4y_vbv_wsb">
+<personnel ixia_locid="4">2</personnel>
+<perscat ixia_locid="5"/>
+<perskill ixia_locid="6"><?oxy-placeholder content="Add the necessary skills of the person who needs to run this maintenance task"?></perskill>
+</reqpers>
+<supequip id="supequip_umd_1cv_wsb" ixia_locid="7">
+<supeqli id="supeqli_zkl_1cv_wsb">
+<supequi ixia_locid="8"><?oxy-placeholder content="Add the equipment needed for this maintenance task"?></supequi>
+</supeqli>
+</supequip>
+<supplies id="supplies_ppl_jdl_jtb" ixia_locid="9">
+<supplyli id="supplyli_ar4_ldl_jtb">
+<supply ixia_locid="10"><?oxy-placeholder content="Add the spare parts items needed for this maintenance task"?></supply>
+</supplyli>
+</supplies>
+<safety id="safety_twq_ybv_wsb">
+<safecond ixia_locid="11"><?oxy-placeholder content="Add the safety conditions you need to take into account for this maintenance task"?></safecond>
+</safety>
+</prelreqs>
+<context id="context_w11ab1b3b3_w12ab1b3_w13ab1" ixia_locid="12">
+<p ixia_locid="13"><?oxy-placeholder content="Add context when you have to run this procedure."?></p>
+</context>
+<steps>
+<step id="step_w14ab1b3b5b1_w15ab1b3b5_w16ab1b3_w17ab1" ixia_locid="14">
+<cmd ixia_locid="15"/>
+<choices id="choices_ksh_nym_y5b">
+<choice ixia_locid="16"/>
+<choice ixia_locid="17"/>
+</choices>
+</step>
+</steps>
+</taskbody>
+</task>
