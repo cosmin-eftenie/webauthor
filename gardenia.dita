@@ -8,25 +8,24 @@
             is a genus of about
             <?oxy_comment_start author="Mary" timestamp="20220208T073505+0000" comment="@&quot;John&quot;, could you verify the number is correct?"?>250<?oxy_comment_end?>
             species of flowering plants in the coffee family, <b>Rubiaceae</b>, native to the
-            tropical and subtropical regions of Africa, southern Asia, Australasia and Oceania.
+            tropical and subtropical regions of Africa, southern Asia, Australasia, and Oceania.
             Several species occur on
             <?oxy_insert_start author="Mary" timestamp="20190213T115708+0000"?>the island of
             <?oxy_insert_end?>Hawaii, where gardenias are known as
             <i>na'u</i><?oxy_delete author="Mary" timestamp="20190213T115732+0000" content="or &lt;i&gt;nanu&lt;/i&gt;"?>.<?oxy_insert_start author="Cosmin Eftenie" timestamp="20250206T095530+0200"?>
             sdads<?oxy_insert_end?></p>
-        <p><image href="../../images/Gardeniaflower.jpg"/></p>
+        <p><image href="../../images/Gardeniaflower.jpg" id="image_z13_mdv_4dc"/></p>
         <p>The genus was named by
             <?oxy_comment_start author="Tom" timestamp="20190213T115921+0000" comment="Someone should double-check these facts." id="hvs_k4x_tgb"?><?oxy_comment_start author="Mary" timestamp="20190213T120035+0000" comment="I will ask John to check this." parentID="hvs_k4x_tgb" mid="2"?><?oxy_comment_start author="John" timestamp="20190213T120047+0000" comment="I checked the facts and they are correct." parentID="hvs_k4x_tgb" mid="3"?>Carl
             Linnaeus after Dr. Alexander Garden (1730-1791), a Scottish-born American
             naturalist<?oxy_comment_end mid="3"?><?oxy_comment_end mid="2"?><?oxy_comment_end?>.
             bbbb cccc</p>
-        <p>They are evergreen test shrubs and great small this is a test lalala dsdsd trees growing
-            to 1–15 metres (3.3–49 ft) tall. The leaves are opposite or in whorls of three or four,
-            5–50 centimetres (2.0–20 in) long and 3–25 centimetres (1.2–9.8 in) broad, dark green
-            and glossy with a leathery texture. The flowers are solitary or in small clusters,
-            white, or pale yellow, with a tubular-based corolla with 5-12 lobes (petals) from 5–12
-            centimetres (2.0–4.7 in) diameter. Flowering is from about mid-spring to mid-summer and
-            many species are strongly scented. Also is a test.</p>
+        <p>They are evergreen shrubs and small trees growing to 1–15 metres (3.3–49 ft) tall. The
+            leaves are opposite or in whorls of three or four, 5–50 centimetres (2.0–20 in) long and
+            3–25 centimetres (1.2–9.8 in) broad, dark green and glossy with a leathery texture. The
+            flowers are solitary or in small clusters, white, or pale yellow, with a tubular-based
+            corolla with 5-12 lobes (petals) from 5–12 centimetres (2.0–4.7 in) diameter. Flowering
+            is from about mid-spring to mid-summer and many species are strongly scented.</p>
         <p><b>Gardenia</b> plants are prized for the strong sweet scent of their flowers, which can
             be very large in some species.</p>
         <p><b>Gardenias</b> have a reputation for being difficult to grow. Because they originated
@@ -37,9 +36,8 @@
         <p>In Japan and China, <b>Gardenia jasminoides</b> is called <i>Kuchinashi</i> (Japanese)
             and <i>Zhi zi</i> (Chinese); the bloom is used as a yellow dye, which is used for
             clothes and food (including the Korean mung bean jelly called hwangpomuk).</p>
-    </body>
+        </body>
     <related-links>
         <link href="lilac.dita#lilac"/>
     </related-links>
 </topic>
-
