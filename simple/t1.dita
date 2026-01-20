@@ -4,5 +4,8 @@
     <title>T1</title>
     <body>
         <p><image keyref="image" id="image_dlg_ymv_mbc"/></p>
+        <p><?oxy_comment_start author="Cosmin Eftenie" timestamp="20260120T090200+0000" comment="test"?>Aceste este<?oxy_comment_end?>
+            <?oxy_comment_start author="Cosmin Eftenie" timestamp="20260120T090207+0000" comment="test2"?>un
+            test<?oxy_comment_end?></p>
     </body>
 </topic>
