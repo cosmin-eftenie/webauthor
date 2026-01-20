@@ -3,15 +3,8 @@
     <context id="tyUjZqIOPkJrGvV" name="test">
         <input href="../flowers/flowers.ditamap"/>
         <profile>
-          <ditaval/>
-         </profile>
+            <ditaval/>
+        </profile>
     </context>
     <publication id="webhelp" transtype="webhelp-responsive"/>
-    <deliverable id="d-test-1714112771796" name="test">
-        <context idref="tyUjZqIOPkJrGvV"/>
-        <output href="webhelp-output"/>
-        <publication idref="webhelp">
-            <param href="cf://templates/Oxygen" name="webhelp.publishing.template"/>
-        </publication>
-    </deliverable>
 </project>
