@@ -58,4 +58,6 @@ When you commit or save the map, all the modified topics are also saved.
       <topicref href="topics/test3.dita"/>
     </topicref>
   </topicref>
+<keydef keys="test" keyscope="a"/>
+<keydef keys="test2" keyscope="b"/>
 </map>
