@@ -21,12 +21,13 @@
                         <entry>1.5 kg (3.3 lbs)test<draft-comment author="cosmin_eftenie"
                                 >test</draft-comment></entry>
                     </row>
+                    <?oxy_attributes outputclass="&lt;change type=&quot;removed&quot; oldValue=&quot;subheading&quot; author=&quot;cosmin_eftenie&quot; timestamp=&quot;20260219T120101+0200&quot; /&gt;"?>
                     <row id="max_payload_2">
                         <entry>Maximum extended payload</entry>
                         <entry>0.8 kg (1.7 lbs)</entry>
                     </row>
                     <row id="voltage">
-                        <entry>Voltage</entry> <?oxy_attributes outputclass="&lt;change type=&quot;removed&quot; oldValue=&quot;subheading&quot; author=&quot;cosmin_eftenie&quot; timestamp=&quot;20260219T120101+0200&quot; /&gt;"?>
+                        <entry>Voltage</entry>
                         <entry>24 V DC</entry>
                     </row>
                 </tbody>
