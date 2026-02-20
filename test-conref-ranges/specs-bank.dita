@@ -19,9 +19,7 @@
           <?oxy_attributes outputclass="&lt;change type=&quot;modified&quot; oldValue=&quot;prod-future&quot; author=&quot;cosmin_eftenie&quot; timestamp=&quot;20260219T120000+0200&quot; /&gt;"?>
           <row id="max_payload" outputclass="mid-range">
             <entry>Maximum payload</entry>
-            <entry>1.5 kg (3.3
-                lbs)<?oxy_insert_start author="cosmin_eftenie" timestamp="20260219T145136+0200"?>test<draft-comment
-                author="cosmin_eftenie">test</draft-comment><?oxy_insert_end?></entry>
+            <entry>1.5 kg (3.3 lbs)</entry>
           </row>
           <?oxy_attributes outputclass="&lt;change type=&quot;removed&quot; oldValue=&quot;subheading&quot; author=&quot;cosmin_eftenie&quot; timestamp=&quot;20260219T120101+0200&quot; /&gt;"?>
           <row id="max_payload_2">
