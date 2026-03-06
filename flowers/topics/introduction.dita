@@ -10,7 +10,9 @@
             shapes.Both annual and <xref keyref="perennial" format="dita">perennial</xref> flower
             gardens can be planted depending on climate and specific needs.</p>
         <?oxy_insert_start author="cosmin_eftenie" timestamp="20260113T145303+0200"?>
-        <object outputclass="video" type="video/mp4" data="../images/file_example_MP4_480_1_5MG.mp4"/>
+        <object outputclass="video" type="video/mp4">
+          <param name="src" value="../images/file_example_MP4_480_1_5MG.mp4"/>
+         </object>        
         <?oxy_insert_end?>
     </body> 
 </topic>
