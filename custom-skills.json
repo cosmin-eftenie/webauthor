@@ -1,0 +1,70 @@
+{
+  "customSkills": [
+    {
+      "id": "summarize-content",
+      "name": "Summarize Content",
+      "description": "Creates a concise summary of the provided text while preserving key points and intent.",
+      "inputs": [
+        {
+          "name": "text",
+          "type": "string",
+          "required": true,
+          "description": "The content to summarize."
+        }
+      ],
+      "output": {
+        "type": "string",
+        "description": "A concise summary of the input text."
+      }
+    },
+    {
+      "id": "translate-text",
+      "name": "Translate Text",
+      "description": "Translates text from one language to another while preserving meaning and tone.",
+      "inputs": [
+        {
+          "name": "text",
+          "type": "string",
+          "required": true,
+          "description": "The text to translate."
+        },
+        {
+          "name": "targetLanguage",
+          "type": "string",
+          "required": true,
+          "description": "The language to translate the text into."
+        }
+      ],
+      "output": {
+        "type": "string",
+        "description": "The translated text."
+      }
+    },
+    {
+      "id": "extract-keywords",
+      "name": "Extract Keywords",
+      "description": "Identifies the most important keywords and phrases from the provided content.",
+      "inputs": [
+        {
+          "name": "text",
+          "type": "string",
+          "required": true,
+          "description": "The content to analyze."
+        },
+        {
+          "name": "maxKeywords",
+          "type": "integer",
+          "required": false,
+          "description": "Maximum number of keywords to return."
+        }
+      ],
+      "output": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "A list of extracted keywords."
+      }
+    }
+  ]
+}
