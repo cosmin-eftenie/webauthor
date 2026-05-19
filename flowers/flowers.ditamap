@@ -18,7 +18,7 @@ When you commit or save the map, all the modified topics are also saved.
   </topicref>
   <topicref href="topics/index.dita" collection-type="sequence">
     <topicref href="concepts/springFlowers.dita" collection-type="sequence">
-      <topicref href="topics/flowers/iris.dita"/>
+      <topicref href="topics/flowers/iris.dita" scope="external"/>
       <topicref href="topics/flowers/snowdrop.dita"/>
     </topicref>
     <topicref href="concepts/summerFlowers.dita" collection-type="sequence">
