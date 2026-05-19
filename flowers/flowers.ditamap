@@ -12,14 +12,14 @@ When you commit or save the map, all the modified topics are also saved.
   <topicref href="topics/introduction.dita">
     <keydef keys="test3" keyscope="c d e, f g h"/>
   </topicref>
-  <topicref href="topics/care.dita">
+  <topicref href="topics/care.dita" scope="external">
     <topicref href="tasks/pruning.dita"/>
     <topicref href="tasks/gardenPreparation.dita"/>
   </topicref>
   <topicref href="topics/index.dita" collection-type="sequence">
     <topicref href="concepts/springFlowers.dita" collection-type="sequence">
       <topicref href="topics/flowers/iris.dita" scope="external"/>
-      <topicref href="topics/flowers/snowdrop.dita"/>
+      <topicref href="topics/flowers/snowdrop.dita" scope="external"/>
     </topicref>
     <topicref href="concepts/summerFlowers.dita" collection-type="sequence">
       <topicref href="topics/flowers/gardenia.dita"/>
@@ -41,7 +41,7 @@ When you commit or save the map, all the modified topics are also saved.
     <topicref navtitle="Genus" href="concepts/glossaryGenus.dita" keys="genus" print="yes"/>
     <topicref navtitle="Pollination" href="concepts/glossaryPollination.dita" keys="pollination"
       print="yes"/>
-    <topicref navtitle="Sepal" href="concepts/glossarySepal.dita" keys="sepal" print="yes"/>
+    <topicref navtitle="Sepal" href="concepts/glossarySepal.dita" keys="sepal" print="yes" scope="external"/>
     <topicref navtitle="Rhizome" href="concepts/glossaryRhizome.dita" keys="rhizome" print="yes"/>
     <topicref navtitle="Bulb" href="concepts/glossaryBulb.dita" keys="bulb" print="yes"/>
     <topicref navtitle="Cultivar" href="concepts/glossaryCultivar.dita" keys="cultivar" print="yes"/>
