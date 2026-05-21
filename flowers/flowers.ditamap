@@ -10,7 +10,7 @@ When you commit or save the map, all the modified topics are also saved.
 <map>
   <title>Growing Flowers</title>
   <topicref href="topics/introduction.dita">
-  <topicref href="topics/file-sample_150kB.pdf"/>
+  <topicref href="topics/file-sample_150kB.pdf" format="pdf"/>
     <keydef keys="test3" keyscope="c d e, f g h"/>
   </topicref>
   <topicref href="topics/care.dita" scope="external">
